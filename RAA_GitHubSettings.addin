@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>RAA_GitHubSettings - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_GitHubSettings\RAA_GitHubSettings.dll</Assembly>
+    <FullClassName>RAA_GitHubSettings.Command1</FullClassName>
+    <ClientId>b950bfe9-cf56-435c-b02e-666d163c2890</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAA_GitHubSettings - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_GitHubSettings\RAA_GitHubSettings.dll</Assembly>
+    <FullClassName>RAA_GitHubSettings.Command2</FullClassName>
+    <ClientId>bd1db75d-253c-4f2e-9d52-70ec73a582eb</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAA_GitHubSettings</Name>
+    <Assembly>RAA_GitHubSettings\RAA_GitHubSettings.dll</Assembly>
+    <FullClassName>RAA_GitHubSettings.App</FullClassName>
+    <ClientId>2913ee0a-98ef-4688-8c30-3b7821e1bbbe</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
